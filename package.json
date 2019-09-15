@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "http-server": "^0.11.1",
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "sass": "^1.22.12"
   }
 }

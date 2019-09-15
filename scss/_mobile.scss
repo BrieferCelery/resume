@@ -1,18 +1,18 @@
-//widescreens
+//WIDESCREENS
 @include mediaXl {
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-//desktop and laptops
+//DESKTOPS AND LAPTOPS
 @include mediaLg {
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-//Tablets & small laptops
+//TABLETS AND SMALL LAPTOPS
 @include mediaMd {
   main {
     align-items: center;
@@ -40,24 +40,38 @@
     transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
+
   .menu-branding {
     height: 25vh;
     padding: 5px;
     transform: translate3d(100%, 0, 0);
+
     .portrait {
       width: 130px;
       height: 120px;
     }
   }
 
+  //TODO work on the image next to bio
+  //may want to change this
+  //img.bio-img {
+  //  display: none;
+  //}
+
   .about-info {
     grid-template-areas:
       "bio"
-      "job1"
-      "job2"
-      "job3";
+      "tech1"
+      "tech2"
+      "tech3"
+      "tech4"
+      "tech5";
 
     grid-template-columns: 1fr;
+  }
+
+  .anim {
+    display: none;
   }
 
   .projects {
@@ -65,17 +79,18 @@
   }
 }
 
-// phones
+// PHONES
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
   }
 
+
   .projects {
     grid-template-columns: 1fr;
   }
 
-  .anim {
+  .wrap {
     display: none;
   }
 }
