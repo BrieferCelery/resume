@@ -11,7 +11,7 @@
   "author": "Aaron Kane",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gh-pages": "^2.1.1",
     "http-server": "^0.11.1",
     "live-server": "^1.2.1",
